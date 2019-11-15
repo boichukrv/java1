@@ -6,12 +6,12 @@ public class AccuracyDoubleFloat {
   //  static final double PI = 3.14;
 
     public static double volumeBallDouble(double radius){
-        return 4/3*3.14*radius*radius*radius;
+        return 4.0/3.0*3.14*radius*radius*radius;
     }
 
 
     public static float volumeBallFloat(float radius) {
-        return 4 / 3 * 3.14f* radius*radius*radius;
+        return 4.0f / 3.0f * 3.14f* radius*radius*radius;
     }
 
     public static double calculateAccuracy (double radius)
