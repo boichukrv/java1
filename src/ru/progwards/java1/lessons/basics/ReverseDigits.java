@@ -10,9 +10,4 @@ public class ReverseDigits {
         /*если записать без переменных, получим выражение вида
        return number/100 + ((number-( number/100 )*100)/10)*10 + (number%10)*100;*/
     }
-
-    public static void main(String[] args) {
-
-    }
-
 }

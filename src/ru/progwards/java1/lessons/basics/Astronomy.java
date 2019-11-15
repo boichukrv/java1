@@ -28,7 +28,4 @@ public class Astronomy {
         return earthSquare()/jupiterSquare();
     }
 
-    public static void main(String[] args) {
-
-    }
 }
