@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0ec885b1-4cbb-4ffe-8893-8b9d4848d207" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java1/lessons/classes/ComplexNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java1/lessons/classes/ComplexNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java1/lessons/classes/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/java1/lessons/classes/Animal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,16 +14,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java1/lessons/classes/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="309">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="e#617#618#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java1/lessons/classes/Duck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java1/lessons/classes/ComplexNum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="241">
@@ -59,8 +72,8 @@
         <option value="$PROJECT_DIR$/src/ru/progwards/java1/lessons/classes/Animal.java" />
         <option value="$PROJECT_DIR$/src/ru/progwards/java1/lessons/classes/Cow.java" />
         <option value="$PROJECT_DIR$/src/ru/progwards/java1/lessons/classes/ComplexNum.java" />
-        <option value="$PROJECT_DIR$/java1/lessons/classes/Animal.java" />
         <option value="$PROJECT_DIR$/java1/lessons/classes/ComplexNum.java" />
+        <option value="$PROJECT_DIR$/java1/lessons/classes/Animal.java" />
       </list>
     </option>
   </component>
@@ -141,7 +154,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574513973059" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574514971125" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -240,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574513454466</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="домашняя работа H4">
+      <created>1574514412473</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574514412473</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -322,24 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java1/lessons/classes/Duck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#120#121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java1/lessons/classes/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java1/lessons/classes/ComplexNum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -347,6 +349,24 @@
           <folding>
             <element signature="e#233#234#0" expanded="true" />
             <element signature="e#272#273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java1/lessons/classes/Duck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java1/lessons/classes/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
           </folding>
         </state>
       </provider>
