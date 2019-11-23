@@ -32,15 +32,11 @@ double weight;
     public double getFoodCoeff(){
         return 0.02;
     }
-    public double calculateFoodWeight(){
-        return weight*getFoodCoeff();
+    public double calculateFoodWeight(){return weight*getFoodCoeff();}
 
-    }
+    public String toStringFull(){ return "I am " +getKind()+" eat "+getFoodKind()+" "+calculateFoodWeight();}
 
-    public String toStringFull(){
-    return "I am " +getKind()+" eat "+getFoodKind()+" "+calculateFoodWeight();}
 
-    }
 
 }
 
