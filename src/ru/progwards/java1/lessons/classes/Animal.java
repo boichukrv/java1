@@ -23,6 +23,7 @@ double weight;
         FoodKind type=FoodKind.UNKNOWN;
         return type;
     }
+
 @Override
         public String toString(){
     return "I am "+getKind()+", eat "+getFoodKind();
@@ -38,6 +39,8 @@ double weight;
 
     public String toStringFull(){
     return "I am " +getKind()+" eat "+getFoodKind()+" "+calculateFoodWeight();}
+
+    }
 
 }
 
