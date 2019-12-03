@@ -17,8 +17,8 @@ public class Eratosthenes {
         for (int i = 2; i < N; i++)
             for (int j = 2; j <= i; j++) {
                 if ((i % j) == 0) {
-                    sieve[i] = false;
-                    break;
+                 sieve[i] = false;
+                 break;
                 }
             }
 
