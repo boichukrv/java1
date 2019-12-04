@@ -11,30 +11,30 @@ public class Eratosthenes {
         sieve = new boolean[N];
         Arrays.fill(sieve, true);
         sift();
+        System.out.println(Arrays.toString(sieve));
+        for (int i=0;i<N;i++)
+            if (sieve[i]){
+                System.out.print(i +" ");
+            }
+        System.out.println();
     }
 
     private void sift() {
         for (int i = 2; i < N; i++)
-            for (int j = 2; j <= i; j++) {
+            for (int j = 2; j < i; j++) {
                 if ((i % j) == 0) {
-                 sieve[i] = false;
-                 break;
+                    sieve[i] = false;//i-2
+                    break;
                 }
             }
-
     }
-
-    public boolean isSimple(int n){
-        if(n<2) return true;
-        else {
-            return sieve[n];
-        }
+    public boolean isSimple(int n) {
+        return sieve[n];
     }
 
 
     public static void main(String[] args) {
         Eratosthenes E1 = new Eratosthenes(300);
         System.out.println(E1.isSimple(299));
-
-    }
+     }
 }
